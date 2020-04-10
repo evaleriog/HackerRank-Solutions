@@ -1,5 +1,13 @@
 package Interview_Preparation_Kit.Arrays;
 
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
 public class Left_Rotation {
     public static int[] rotLeft(int[]a, int d){
         for(int x = 1; x <= d; x++){
