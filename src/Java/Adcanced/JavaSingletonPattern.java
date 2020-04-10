@@ -14,23 +14,23 @@
 //        Sample Output
 //        Hello I am a singleton! Let me say hello world to you
 
-package Adcanced;
-
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-import java.lang.reflect.*;
-
-public class JavaSingletonPattern {
-    public String str;
-
-    private static Singleton singleton = new Singleton();
-
-    private Singleton(){};
-
-    public static Singleton getSingleInstance(){
-        return singleton;
-    }
-}
+//package Adcanced;
+//
+//import java.io.*;
+//import java.util.*;
+//import java.text.*;
+//import java.math.*;
+//import java.util.regex.*;
+//import java.lang.reflect.*;
+//
+//public class JavaSingletonPattern {
+//    public String str;
+//
+//    private static Singleton singleton = new Singleton();
+//
+//    //private Singleton(){};
+//
+//    public static Singleton getSingleInstance(){
+//        return singleton;
+//    }
+//}
